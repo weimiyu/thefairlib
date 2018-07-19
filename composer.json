@@ -1,0 +1,33 @@
+{
+  "name": "weimiyu/thefairlib",
+  "type": "library",
+  "description": "这个类库只能用于与Yaf框架",
+  "keywords": [
+    "thefair"
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "weimiyu",
+      "email": "weimiyu18@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">5.4.0",
+    "predis/predis": "1.0.3",
+    "illuminate/database": "<4.2",
+    "nmred/kafka-php": "*",
+    "endroid/qrcode": "<2.0",
+    "php-amqplib/php-amqplib": "2.6.*",
+    "aliyuncs/oss-sdk-php": "~2.0"
+
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "TheFairLib\\": ""
+    }
+  }
+}
